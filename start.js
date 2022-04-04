@@ -130,6 +130,8 @@ console.log(willBuyDrink('yes', 9.50))
 willBuyDrink();
 
 // Question 13
+let ofAge = 21;
+
 function canDrink(a) {
 
     if (a < ofAge) {
