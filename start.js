@@ -130,3 +130,13 @@ console.log(willBuyDrink('yes', 9.50))
 willBuyDrink();
 
 // Question 13
+function canDrink(a) {
+
+    if (a < ofAge) {
+        return 'You are ' + a + ' and too young to drink!';
+    } else {
+        return 'You are ' + a + ' and allowed to drink!';
+    }
+}
+canDrink();
+console.log(canDrink(17));
